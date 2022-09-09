@@ -806,7 +806,7 @@ FaustPlugInAudioProcessorEditor::FaustPlugInAudioProcessorEditor (FaustPlugInAud
 //==============================================================================
 void FaustPlugInAudioProcessorEditor::paint (juce::Graphics& g)
 {
-    g.fillAll (juce::Colours::white);
+    g.fillAll (juce::Colours::darkgrey);
 }
 
 void FaustPlugInAudioProcessorEditor::resized()
